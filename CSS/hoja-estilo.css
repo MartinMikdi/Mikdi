@@ -1,0 +1,150 @@
+body {
+    background-color: #aaf0fc;
+    font-family: 'Architects Daughter', cursive;
+    border: 3px solid #abc86b;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+html {
+    background-image: url(../Imagenes/fondo.jpg);
+    background-position: top;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+h2 {
+    color: #ffff24;
+    text-align: left;
+    margin: 3px;
+    padding-bottom: 36px;
+    padding-top: 5px;
+    padding-left: 15px;
+    text-decoration: line-through;
+    text-decoration-color: #3eb1fe;
+    font-family: 'Indie Flower', cursive;
+    
+}
+h3 {
+    text-align: center;
+    color: #111111;
+    margin-top: 2px;
+    font-family: 'Indie Flower', cursive;
+}
+h6 {
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+}
+h7 {
+    text-align: end;
+    padding-left: 95%;
+    padding-right: 5%;
+}
+h8 {
+    text-align: center;
+}
+header {
+    background-image: url(../Imagenes/audi_cabeza.png);
+    background-position: right;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+section {
+    border-top: 8px solid #abc86b;
+    border-top-style: ridge;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 35px;
+}
+nav ul {
+    list-style: none;
+    background-color: #4b56a6;
+    border: 3px solid #111111;
+    border-radius: 10px;
+    font-family: serif;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+nav ul li {
+    display: inline-flex;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a {
+    text-decoration: inherit;
+    color: #ffffffff;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+nav li a:active {
+    color: #9ec0f8;
+}
+p.Educacion {
+    color: white;
+    border: 3px solid #abc86b;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: black;
+}
+p.Educacion::before {
+    color: #f8afa8;
+    content: "YAPA: ";
+    font-weight: 700;
+}
+p.Educacion a {
+    color: #9ec0f8;
+    text-decoration: inherit;
+}
+h1.Ini {
+    background-color: #d38c94;
+    border-radius: 60px;
+}
+p.Ini {
+    color: #ffff24;
+    text-decoration: line-through;
+    text-decoration-color: #3eb1fe;
+    width: 60px;
+    text-align: center;
+    background-color: #d38c94;
+    margin: 3px;
+    border-radius: 10px;
+}
+h6.Ini {
+    text-align: center;
+}
+h6 img {
+    max-width: 58%;
+    min-width: 280px; 
+    
+}
+body.Ini {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 569px;
+    min-width: 300px;
+}
