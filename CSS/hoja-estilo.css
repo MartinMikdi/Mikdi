@@ -13,7 +13,7 @@ body {
     padding-bottom: 8px;
 }
 html {
-    background-image: url(../Imagenes/fondo.jpg);
+    background-image: url(../Img/fondo.jpg);
     background-position: top;
     margin-top: 8px;
     margin-bottom: 5px;
@@ -60,7 +60,7 @@ h8 {
     text-align: center;
 }
 header {
-    background-image: url(../Imagenes/audi_cabeza.png);
+    background-image: url(../Img/audi_cabeza.png);
     background-position: right;
     border-radius: 10px;
     background-repeat: no-repeat;
