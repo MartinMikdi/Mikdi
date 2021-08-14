@@ -116,6 +116,10 @@ p.Educacion::before {
     font-weight: 700;
 }
 p.Educacion a {
+    color: white;
+    text-decoration: none;
+}
+p.Educacion a:hover {
     color: #9ec0f8;
     text-decoration: inherit;
 }
