@@ -3,10 +3,6 @@ body {
     font-family: 'Architects Daughter', cursive;
     border: 3px solid #abc86b;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-    min-width: 256px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 8px;
@@ -17,8 +13,6 @@ html {
     background-position: top;
     margin-top: 8px;
     margin-bottom: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 h1 {
     text-align: center;
@@ -140,15 +134,22 @@ p.Ini {
 h6.Ini {
     text-align: center;
 }
+h6.Ini img {
+    max-height: 225px;
+    min-height: 120px;
+}
 h6 img {
     max-width: 58%;
-    min-width: 280px; 
+    min-width: 150px; 
     
 }
 body.Ini {
     text-align: center;
+    max-width: 569px;
+    min-width: 256px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 2%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 569px;
-    min-width: 300px;
 }
